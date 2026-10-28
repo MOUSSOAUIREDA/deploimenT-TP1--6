@@ -1,6 +1,6 @@
 {
   "source": "allocine+produits",
-  "date": "2026-10-21",
+  "date": "2026-10-28",
   "n_train": 15977,
   "n_test": 3995,
   "f1_macro": 0.9089,

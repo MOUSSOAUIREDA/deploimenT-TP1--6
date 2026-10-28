@@ -2,11 +2,11 @@ text,attendu,difficulte,erreur_connue
 "Livraison rapide et produit conforme, je suis très satisfait",POSITIVE,,
 "Produit excellent, je recommande vivement ce vendeur",POSITIVE,,
 Le service client a été très efficace et aimable,POSITIVE,,
-"Bonne qualité pour le prix, rien à redire",POSITIVE,,
+"Bonne qualité pour le prix, rien à redire",POSITIVE,difficile,Négation : rien à redire est lu comme négatif.
 "Commande reçue avant la date prévue, parfait",POSITIVE,,
 Installation facile et fonctionnement impeccable,POSITIVE,,
 "Je suis content de mon achat, tout fonctionne bien",POSITIVE,,
-Emballage soigné et livraison sans problème,POSITIVE,,
+Emballage soigné et livraison sans problème,POSITIVE,difficile,Négation : sans problème contient le mot problème.
 "Produit cassé à la réception, je suis très déçu",NEGATIVE,,
 "Service client injoignable, je déconseille fortement",NEGATIVE,,
 Commande jamais reçue et aucun remboursement,NEGATIVE,,
@@ -19,7 +19,7 @@ Le produit est joli mais il ne fonctionne pas,NEGATIVE,difficile,
 "Livraison rapide, malheureusement l'article est cassé",NEGATIVE,difficile,
 "Ce n'est pas mauvais, mais je ne le recommande pas",NEGATIVE,difficile,
 "Qualité correcte, cependant le prix est beaucoup trop élevé",NEGATIVE,difficile,
-"Je pensais être déçu, mais finalement le produit est excellent",POSITIVE,difficile,
-"Le colis est arrivé en retard, mais le service client a bien réagi",POSITIVE,difficile,
+"Je pensais être déçu, mais finalement le produit est excellent",POSITIVE,difficile,Phrase avec mais : le mot déçu l'emporte.
+"Le colis est arrivé en retard, mais le service client a bien réagi",POSITIVE,difficile,Phrase avec mais : le mot retard l'emporte.
 "Pas parfait, mais le rapport qualité-prix est excellent",POSITIVE,difficile,
 Le produit fonctionne bien malgré un emballage abîmé,POSITIVE,difficile,
